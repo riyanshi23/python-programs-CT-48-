@@ -1,6 +1,5 @@
-username =input("Enter your name ")
-
-if(username<10):
-    print("less than 10 characters" )
+username = input("Enter your Username \n")
+if len(username) <= 10:
+    print("Less than 10 characters" )
 else:
-    print("not less than 10 characters ")
+    print("More than 10 characters")
